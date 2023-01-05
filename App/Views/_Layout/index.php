@@ -245,7 +245,7 @@
             </div>
         </div>
     </div> <!-- container-fluid, tm-container-content -->
-
+ e
 <?php $this->view("_Layout/footer"); ?>
 
 <script src="<?=ASSETS?>Theme/js/plugins.js"></script>
