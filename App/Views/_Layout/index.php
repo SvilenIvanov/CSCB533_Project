@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog-Z Bootstrap 5.0 HTML Template</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/css/templatemo-style.css">
 
 </head>
 <body>
@@ -46,7 +46,7 @@
         </div>
     </nav>
 
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="<?=ASSETS?>Theme/img/hero.jpg">
         <form class="d-flex tm-search-form">
             <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success tm-search-btn" type="submit">
@@ -69,7 +69,7 @@
         <div class="row tm-mb-90 tm-gallery">
         	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-03.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Clocks</h2>
                         <a href="photo-detail.html">View more</a>
@@ -82,7 +82,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-04.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Plants</h2>
                         <a href="photo-detail.html">View more</a>
@@ -95,7 +95,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-05.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-05.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Morning</h2>
                         <a href="photo-detail.html">View more</a>
@@ -108,7 +108,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-06.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-06.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Pinky</h2>
                         <a href="photo-detail.html">View more</a>
@@ -122,7 +122,7 @@
 
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-01.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Hangers</h2>
                         <a href="photo-detail.html">View more</a>
@@ -135,7 +135,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-02.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Perfumes</h2>
                         <a href="photo-detail.html">View more</a>
@@ -148,7 +148,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-07.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-07.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Bus</h2>
                         <a href="photo-detail.html">View more</a>
@@ -161,7 +161,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-08.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-08.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>New York</h2>
                         <a href="photo-detail.html">View more</a>
@@ -174,7 +174,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-09.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-09.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Abstract</h2>
                         <a href="photo-detail.html">View more</a>
@@ -187,7 +187,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-10.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-10.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Flowers</h2>
                         <a href="photo-detail.html">View more</a>
@@ -200,7 +200,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-11.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-11.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Rosy</h2>
                         <a href="photo-detail.html">View more</a>
@@ -213,7 +213,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-12.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-12.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Rocki</h2>
                         <a href="photo-detail.html">View more</a>
@@ -226,7 +226,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-13.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-13.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Purple</h2>
                         <a href="photo-detail.html">View more</a>
@@ -239,7 +239,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-14.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-14.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Sea</h2>
                         <a href="photo-detail.html">View more</a>
@@ -252,7 +252,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-15.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-15.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Turtle</h2>
                         <a href="photo-detail.html">View more</a>
@@ -265,7 +265,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/img-16.jpg" alt="Image" class="img-fluid">
+                    <img src="<?=ASSETS?>Theme/img/img-16.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Peace</h2>
                         <a href="photo-detail.html">View more</a>
@@ -329,7 +329,7 @@
         </div>
     </footer>
 
-    <script src="js/plugins.js"></script>
+    <script src="<?=ASSETS?>Theme/js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');
