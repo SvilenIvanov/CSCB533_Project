@@ -2,11 +2,9 @@
 
 Class Home{
 
-  function index(){
-    echo "Home controller and index view";
+  public function index(){
+      
   }
-  function paper(){
-    echo "Home controller and paper view";
-  }
+
 
 }
