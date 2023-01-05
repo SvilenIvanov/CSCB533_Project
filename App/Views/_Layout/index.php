@@ -1,5 +1,6 @@
 
-<?php $this->view("_Layout/header"); ?>
+<?php $this->view("_Layout/header",$data); ?>
+
 
     <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="<?=ASSETS?>Theme/img/hero.jpg">
         <form class="d-flex tm-search-form">

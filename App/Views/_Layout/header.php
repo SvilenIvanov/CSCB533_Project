@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bootstrap 5.0 HTML Template</title>
+    <title><?=$data['pageTitle']?></title>
     <link rel="stylesheet" href="<?=ASSETS?>Theme/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=ASSETS?>Theme/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="<?=ASSETS?>Theme/css/templatemo-style.css">

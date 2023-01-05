@@ -1,12 +1,13 @@
 <?php
 
 Class Controller{
-  function view($view, $data = []){
-    $this->pathToCheck = "../App/Views/". $view . ".php";
-    if(file_exists($this->pathToCheck))
-    {
-      include $this->pathToCheck;
-    }
-  }
+  public function view($view, $data = []){
+
+    $pathTobeChecked = "../App/Views/". $view . ".php";
+		if(file_exists($pathTobeChecked)){
+
+			include $pathTobeChecked;
+		}
+	}
 
 }

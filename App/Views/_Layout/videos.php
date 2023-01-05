@@ -1,4 +1,4 @@
-<?php $this->view("_Layout/header"); ?>
+<?php $this->view("_Layout/header",$data); ?>
 
 
     <div class="tm-hero d-flex justify-content-center align-items-center" id="tm-video-container">
