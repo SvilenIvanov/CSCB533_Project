@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog-Z About page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
+    <title><?=WEBSITE_TITLE?> About page</title>
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?=ASSETS?>Theme/css/templatemo-style.css">
 
 </head>
 <body>
@@ -20,9 +20,9 @@
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index">
                 <i class="fas fa-film mr-2"></i>
-                Catalog-Z
+                <?=WEBSITE_TITLE?>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -30,33 +30,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-1" href="index.html">Photos</a>
+                    <a class="nav-link nav-link-1" href="index">Photos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-2" href="videos.html">Videos</a>
+                    <a class="nav-link nav-link-2" href="videos">Videos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-3 active" aria-current="page" href="about.html">About</a>
+                    <a class="nav-link nav-link-3 active" aria-current="page" href="about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-4" href="contact.html">Contact</a>
+                    <a class="nav-link nav-link-4" href="contact">Contact</a>
                 </li>
             </ul>
             </div>
         </div>
     </nav>
 
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg"></div>
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="<?=ASSETS?>Theme/img/hero.jpg"></div>
 
     <div class="container-fluid tm-mt-60">
-        <div class="row mb-4">
-            <h2 class="col-12 tm-text-primary">
-                About Catalog-Z Website Template
-            </h2>
-        </div>
+
         <div class="row tm-mb-74 tm-row-1640">
             <div class="col-lg-5 col-md-6 col-12 mb-3">
-                <img src="img/about.jpg" alt="Image" class="img-fluid">
+                <img src="<?=ASSETS?>Theme/img/about.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="col-lg-7 col-md-6 col-12">
 
@@ -129,10 +125,6 @@
     <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
         <div class="container-fluid tm-container-small">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Catalog-Z</h3>
-                    <p>Catalog-Z is free Bootstrap 5 Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
                     <h3 class="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
                     <ul class="tm-footer-links pl-0">
@@ -157,7 +149,7 @@
         </div>
     </footer>
 
-    <script src="js/plugins.js"></script>
+    <script src="<?=ASSETS?>Theme/js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');
