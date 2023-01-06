@@ -248,10 +248,4 @@
     </div> <!-- container-fluid, tm-container-content -->
  e
 <?php $this->view("_Layout/footer"); ?>
-
-<script src="<?=ASSETS?>Theme/js/plugins.js"></script>
-<script>
-    $(window).on("load", function() {
-        $('body').addClass('loaded');
-    });
-</script>
+<?php $this->view("_Layout/scripts"); ?>

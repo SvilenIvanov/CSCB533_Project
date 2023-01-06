@@ -78,12 +78,7 @@
     </div> <!-- container-fluid, tm-container-content -->
 
 <?php $this->view("_Layout/footer"); ?>
+<?php $this->view("_Layout/scripts"); ?>
 
-    <script src="<?=ASSETS?>Theme/js/plugins.js"></script>
-    <script>
-        $(window).on("load", function() {
-            $('body').addClass('loaded');
-        });
-    </script>
 </body>
 </html>
