@@ -10,6 +10,8 @@ Class Upload extends Controller{
 
   public function image(){
     $data['pageTitle'] = "Upload Image";
+
+    
     $this->view("_Layout/uploadImage", $data);
 
   }
