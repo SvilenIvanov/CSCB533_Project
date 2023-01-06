@@ -6,3 +6,6 @@ function show($item){
   echo "</pre>";
 
 }
+function escape($item){
+  return addslashes($item);
+}

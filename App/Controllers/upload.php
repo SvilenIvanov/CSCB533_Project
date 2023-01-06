@@ -12,7 +12,8 @@ Class Upload extends Controller{
     $data['pageTitle'] = "Upload Image";
 
     if(isset($_FILES['file'])){
-      show($_FILES);
+      $model = $this->loadModel("upload_file");
+      $model->upload($_POST, $_FILES);
 
     }
     $this->view("_Layout/uploadImage", $data);
