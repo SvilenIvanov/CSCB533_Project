@@ -3,8 +3,8 @@
 Class Database{
   public function dbConnect(){
     try{
-      $string = "mysql:host=localhost;dbname=gallery_db;";
-      return $db = new PDO($string, 'root', 'cW)~S6ra$TMi&1*kWER2s=sO~u>{]Nm:');
+      $string = "mysql:host=". DB_HOST . ";dbname=" . DB_NAME . ";";
+      return $db = new PDO($string, DB_USERNAME, DB_PASSWORD);
     }catch(PDOException $exception){
       die($exception->getMessage());
 

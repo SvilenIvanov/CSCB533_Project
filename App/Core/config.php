@@ -26,4 +26,4 @@ define('DEBUG',true);
 define("DB_HOST", "localhost");
 define("DB_NAME", "gallery_db");
 define("DB_USERNAME", "root");
-define("DB_PASSWORD", "08065BC27BD99C473706EE3B46BAA6DB");
+define("DB_PASSWORD", 'cW)~S6ra$TMi&1*kWER2s=sO~u>{]Nm:');
