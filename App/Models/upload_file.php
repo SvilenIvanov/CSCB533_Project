@@ -13,14 +13,18 @@ Class Upload_file{
         $destination = $folder . $FILES['file']['name'];
         move_uploaded_file($FILES['file']['tmp_name'], $destination);
       }
-      /*$title = escape($POST['title']);
-      $date = date("YYYY-mm-dd-HH-MM-s");
-      $url_address = "";
+      $arr['title'] = escape($POST['title']);
+      $arr['date'] = date("Y-m-d H:i:s");
+      $arr['userid'] = 1;
+      $arr['image'] = $destination;
+      $arr['views'] = 0;
+      $arr['url_address'] = generateRandomString(60);
 
       $_db =  new Database();
-      $query = "INSERT into images () values ()";
-      header("Location: ". ROOT . "photos");
-      $_db->write();*/
+      $query = "INSERT into images (title, userid, date, image, views, url_address) values (:title, :userid, :date, :image, :views, :url_address)";
+      $_db->write($query, $arr);
+      //header("Location: ". ROOT . "photos");
+      die;
 
 
     }
