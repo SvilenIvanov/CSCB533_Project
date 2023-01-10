@@ -29,3 +29,7 @@ define("DB_HOST", "localhost");
 define("DB_NAME", "gallery_db");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", 'cW)~S6ra$TMi&1*kWER2s=sO~u>{]Nm:');
+
+//FORMATS
+
+define("DATETIME_FORMAT", "d-m-Y");
