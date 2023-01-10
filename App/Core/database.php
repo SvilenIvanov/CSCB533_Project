@@ -9,17 +9,12 @@ Class Database{
       die($exception->getMessage());
 
     }
-
-
   }
   public function read($query,$data = [])
 	{
-
 		$DB  = $this->dbConnect();
 		$stm = $DB->prepare($query);
-
 		if(count($data) > 0){
-
 			$check = $stm->execute($data);
 		}else{
 			$stm = $DB->query($query);
@@ -28,24 +23,17 @@ Class Database{
 				$check = 1;
 			}
 		}
-
 		if($check)
 		{
 			return $stm->fetchAll(PDO::FETCH_OBJ);
 		}
-
 		return false;
-
 	}
-
 	public function write($query,$data = [])
 	{
-
 		$DB  = $this->dbConnect();
 		$stm = $DB->prepare($query);
-
 		if(count($data) > 0){
-
 			$check = $stm->execute($data);
 		}else{
 			$stm = $DB->query($query);
@@ -54,15 +42,10 @@ Class Database{
 				$check = 1;
 			}
 		}
-
 		if($check)
 		{
 			return true;
 		}
-
 		return false;
-
 	}
-
-
 }
