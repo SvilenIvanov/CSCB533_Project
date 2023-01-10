@@ -23,7 +23,7 @@ Class Upload_file{
       $_db =  new Database();
       $query = "INSERT into images (title, userid, date, image, views, url_address) values (:title, :userid, :date, :image, :views, :url_address)";
       $_db->write($query, $arr);
-      //header("Location: ". ROOT . "photos");
+      header("Location: ". ROOT . "photos");
       die;
 
 

@@ -12,25 +12,57 @@ Class Database{
 
 
   }
-  public function read($query, $data = []){
+  public function read($query,$data = [])
+	{
 
+		$DB  = $this->dbConnect();
+		$stm = $DB->prepare($query);
 
+		if(count($data) > 0){
 
-  }
-  public function write($query, $data = []){
-    $DB = $this->dbConnect();
-    $stm = $DB->prepare($query);
-    if(count($data) > 0){
-      $check = $stm -> execute($data);
-    } else {
-      $check = $stm -> query();
-    }
+			$check = $stm->execute($data);
+		}else{
+			$stm = $DB->query($query);
+			$check = 0;
+			if($stm){
+				$check = 1;
+			}
+		}
 
-    if($check){
-      return true;
-    }
-    return false;
-  }
+		if($check)
+		{
+			return $stm->fetchAll(PDO::FETCH_OBJ);
+		}
+
+		return false;
+
+	}
+
+	public function write($query,$data = [])
+	{
+
+		$DB  = $this->dbConnect();
+		$stm = $DB->prepare($query);
+
+		if(count($data) > 0){
+
+			$check = $stm->execute($data);
+		}else{
+			$stm = $DB->query($query);
+			$check = 0;
+			if($stm){
+				$check = 1;
+			}
+		}
+
+		if($check)
+		{
+			return true;
+		}
+
+		return false;
+
+	}
 
 
 }

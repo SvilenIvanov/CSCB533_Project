@@ -23,6 +23,8 @@ set to false when you upload online to stop error reporting*/
 
 define('DEBUG',true);
 
+//DBINFO
+
 define("DB_HOST", "localhost");
 define("DB_NAME", "gallery_db");
 define("DB_USERNAME", "root");
