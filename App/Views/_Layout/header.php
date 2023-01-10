@@ -36,9 +36,6 @@
                     <a class="nav-link nav-link-2 <?= $data["pageTitle"] == "Videos" ? "active": "" ?> " href="<?=ROOT?>videos">Videos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-3 <?= $data["pageTitle"] == "About" ? "active": "" ?>" href="<?=ROOT?>about">About</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link nav-link-4 <?= $data["pageTitle"] == "Contact" ? "active": "" ?>" href="<?=ROOT?>contact">Contact</a>
                 </li>
                 <li class="nav-item">
